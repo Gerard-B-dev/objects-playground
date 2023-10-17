@@ -10,8 +10,9 @@
 let estudiante = {
   nombre: "Edu",
   conocimientos: [],
-  aprender: function (nuevoConocimiento) {
+  aprender: function (html) {
     // una línia de código
+    this.conocimientos.push(html);
   },
 };
 
